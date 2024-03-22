@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63215065631",
+    "project_id": "projetmobile-27ead",
+    "storage_bucket": "projetmobile-27ead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63215065631:android:c3fd509809ec2ee4ae132a",
+        "android_client_info": {
+          "package_name": "com.example.projetmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzLJOH-YetkduQ6pJXiuHQ8vLmBFovJs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
