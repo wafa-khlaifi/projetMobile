@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,38 +41,47 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAdoYb4NqFt4YgMhnwG4-1AaxwaiqE0rl0',
-    appId: '1:63215065631:web:ddb7959b0115b722ae132a',
-    messagingSenderId: '63215065631',
-    projectId: 'projetmobile-27ead',
-    authDomain: 'projetmobile-27ead.firebaseapp.com',
-    storageBucket: 'projetmobile-27ead.appspot.com',
-    measurementId: 'G-308Q4FHTC7',
+    apiKey: 'AIzaSyAinLSTG_8ePt6I28c_2AzVDNneW5n_-QQ',
+    appId: '1:251371728481:web:5f6c03029c6848d1298420',
+    messagingSenderId: '251371728481',
+    projectId: 'projetmobile-95993',
+    authDomain: 'projetmobile-95993.firebaseapp.com',
+    storageBucket: 'projetmobile-95993.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCzLJOH-YetkduQ6pJXiuHQ8vLmBFovJs4',
-    appId: '1:63215065631:android:c3fd509809ec2ee4ae132a',
-    messagingSenderId: '63215065631',
-    projectId: 'projetmobile-27ead',
-    storageBucket: 'projetmobile-27ead.appspot.com',
+    apiKey: 'AIzaSyCiDFVVA_skb4tgRhJNGlnNWFivu_Brgrk',
+    appId: '1:251371728481:android:446ef892568edcf1298420',
+    messagingSenderId: '251371728481',
+    projectId: 'projetmobile-95993',
+    storageBucket: 'projetmobile-95993.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD8zB2W9f9CnWNrcxZvYLaqlFRvZcFjg28',
-    appId: '1:63215065631:ios:dbd6cea92e8150b2ae132a',
-    messagingSenderId: '63215065631',
-    projectId: 'projetmobile-27ead',
-    storageBucket: 'projetmobile-27ead.appspot.com',
+    apiKey: 'AIzaSyB8kKSZQ5CmAG-kr6z8sHIKywhiIq_7ywg',
+    appId: '1:251371728481:ios:57920bc620864e2b298420',
+    messagingSenderId: '251371728481',
+    projectId: 'projetmobile-95993',
+    storageBucket: 'projetmobile-95993.appspot.com',
     iosBundleId: 'com.example.projetmobile',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyD8zB2W9f9CnWNrcxZvYLaqlFRvZcFjg28',
-    appId: '1:63215065631:ios:834e4e0ca8292bb8ae132a',
-    messagingSenderId: '63215065631',
-    projectId: 'projetmobile-27ead',
-    storageBucket: 'projetmobile-27ead.appspot.com',
-    iosBundleId: 'com.example.projetmobile.RunnerTests',
+    apiKey: 'AIzaSyB8kKSZQ5CmAG-kr6z8sHIKywhiIq_7ywg',
+    appId: '1:251371728481:ios:57920bc620864e2b298420',
+    messagingSenderId: '251371728481',
+    projectId: 'projetmobile-95993',
+    storageBucket: 'projetmobile-95993.appspot.com',
+    iosBundleId: 'com.example.projetmobile',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyAinLSTG_8ePt6I28c_2AzVDNneW5n_-QQ',
+    appId: '1:251371728481:web:c95b3c8f057f0380298420',
+    messagingSenderId: '251371728481',
+    projectId: 'projetmobile-95993',
+    authDomain: 'projetmobile-95993.firebaseapp.com',
+    storageBucket: 'projetmobile-95993.appspot.com',
+  );
+
 }

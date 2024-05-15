@@ -78,7 +78,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   borderRadius: BorderRadius.circular(10.0),
                 ),
               ),
-              obscureText: true,
+              obscureText: false,
             ),
             const SizedBox(height: 10.0),
             TextFormField(
